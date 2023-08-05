@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+user-select: none;
+}
+.Cheader{
+  display: flex;
+  column-gap:40px;
+  border-bottom: 1px solid black;
+}
+.Cheader section{
+ display: flex;  
+ flex-direction: column;
+}
+.Cheader option select{
+height: 50px;
+   }
+.Cheader .orta{
+    padding: 10px;
+       }
+       .Cheader h4{
+        border-bottom: 1px solid black;
+           }
+.Cheader p{
+margin-bottom:5px ;
+   }
+   .Cheader label{
+    margin-left:5px ;
+       }
+       
+       .Cfooter{
+        width: 30%;
+      }
+       .bilgi{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        border-bottom: 1px solid black;
+       }
+       .bilgi button{
+         
+        padding: 10px;
+        border-radius: 10px;
+       }
